@@ -1,11 +1,11 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+// Подключаем пространство имен для работы с ASP.NET Core
+var builder = WebApplication.CreateBuilder(args); // Создаем билдер приложения
+var app = builder.Build(); // Собираем объект WebApplication
 
-// Включаем поддержку статических файлов
+// Подключаем обработку статических файлов (нужно для HTML, CSS, JS и изображений в wwwroot)
 app.UseStaticFiles();
 
 // Главная страница
-//app.MapGet("/", () => Results.File("wwwroot/pages/index.html", "text/html"));
 app.MapGet("/", async context =>{ await context.Response.SendFileAsync("wwwroot/pages/index.html"); });
 
 // Дополнительные страницы
