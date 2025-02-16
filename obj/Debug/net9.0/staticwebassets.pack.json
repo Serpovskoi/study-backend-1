@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Serpovskoy\\Documents\\study-backend-1\\wwwroot\\pages\\about.html",
+      "PackagePath": "staticwebassets\\pages\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\Serpovskoy\\Documents\\study-backend-1\\wwwroot\\pages\\habr.html",
+      "PackagePath": "staticwebassets\\pages\\habr.html"
+    },
+    {
+      "Id": "C:\\Users\\Serpovskoy\\Documents\\study-backend-1\\wwwroot\\pages\\index.html",
+      "PackagePath": "staticwebassets\\pages\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Serpovskoy\\Documents\\study-backend-1\\wwwroot\\pages\\wikipedia.html",
+      "PackagePath": "staticwebassets\\pages\\wikipedia.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.study-backend-1.props",
+      "PackagePath": "build\\study-backend-1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.study-backend-1.props",
+      "PackagePath": "buildMultiTargeting\\study-backend-1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.study-backend-1.props",
+      "PackagePath": "buildTransitive\\study-backend-1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.study-backend-1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.study-backend-1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
